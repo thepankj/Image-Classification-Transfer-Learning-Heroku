@@ -6,7 +6,7 @@ from PIL import Image
 
 @st.cache(allow_output_mutation=True)
 def get_model():
-        model = load_model('/content/drive/MyDrive/Butterflies/inception.hdf5')
+        model = load_model('inception.hdf5')
         print('Model Loaded')
         return model 
 
