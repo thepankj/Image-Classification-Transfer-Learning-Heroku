@@ -3,6 +3,7 @@ from tensorflow.keras.preprocessing.image import img_to_array, load_img
 import numpy as np
 import streamlit as st
 from PIL import Image
+import heapq as hq
 
 @st.cache(allow_output_mutation=True)
 def get_model():
