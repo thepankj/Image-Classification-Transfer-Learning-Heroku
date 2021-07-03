@@ -1,4 +1,4 @@
 tensorflow
 numpy
 streamlit
-PIL
+pillow
